@@ -4,6 +4,9 @@
     font-style: normal; 
     font-weight: normal; 
 }
+.logo__header2 {
+    display: none;
+}
 header {
     top: 0;
     width: 100vw;
@@ -87,7 +90,7 @@ header button:hover {
 }
 .object-img__paper {
     width: 100%;
-    height: 40vw;
+    height: 70vh;
     background: url(Rectangle\ 229.png);
     display: flex;
     justify-content: center;
@@ -106,7 +109,7 @@ header button:hover {
     font-size: 1vw;
 }
 .special-text__information {
-    font-size: 1.1vw;
+    font-size: 1;
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: rgba(0, 0, 0, 0.25) 0 0.2vw;
@@ -229,3 +232,117 @@ input:active, input:hover, input:focus {
 .privacy-policy__end {
     margin-left: auto;
 }
+@media (orientation:portrait) {
+    header a {
+        display: none;
+    }
+    header p {
+        font-size: 0;
+        height: 10px;
+        width: 30px;
+        border-top: 1px white solid;
+        border-bottom: 1px white solid;
+    }
+    .logo__header {
+        display: none;
+    }
+    .logo__header2 {
+        margin-right: auto;
+        margin-left: 8vh;
+        height: 6vh;
+        display: block;
+    }
+    .main__header {
+        justify-content: right;
+    }
+    .book-now__header {
+        width: 8vh;
+        height: 7vh;
+    }
+
+    .search__header {
+        margin-right: 4vh;
+        margin-left: 0;
+    }
+    .search__header > img {
+        width: 3vh;
+        height: 3vh;
+    }
+    .information__paper {
+        width: 100%;
+    }
+    .image-placeholder__paper {
+        font-size: 1.6vh;
+    }
+    .paper {
+        margin-top: 7vh;
+    }
+    .date__paper {
+        font-size: 1.8vh;
+    }
+    .label__paper {
+        font-size: 2.5vh;
+    }
+    .defualt-text__information {
+        font-size: 2vh;
+    }
+    .call-to-action__actions {
+        width: 15vh;
+        height: 5vh;
+        font-size: 1.4vh;
+    }
+    .back-to-all__actions {
+        width: 15vh;
+        height: 5vh;
+        font-size: 1.4vh;
+    }
+    .media__footer > img {
+        width: 17vh;
+    }
+    .media__footer {
+        height: 12vh;
+    }
+    .footer {
+        padding: 0 2vh;
+    }
+    .links__media > img {
+        width: 16vh;
+    }
+    .links__media {
+        display: flex;
+        align-items: center;
+    
+        height: 4vh;
+    }
+    .enter-email__footer {
+        height: 30vh;
+    }
+    .description__enter-email {
+        font-size: 2vh;
+        width: 15vh;
+    }
+    .a__footer {
+        font-size: 1.4vh;
+    }
+    .input__enter-email {
+        font-size: 2vh;
+        width: 20vh;
+    }
+    .submit__enter-email {
+        font-size: 2vh;
+        width: 10vh;
+    }
+    .enter-email__enter-email {
+        width: 75vw;
+    }
+    .links__footer {
+        width: 25vw;
+    }
+    .end__footer {
+        height: 10vh;
+    }
+    .end__footer > p {
+        font-size: 1.5vh; 
+    }
+}
+    

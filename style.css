@@ -1,0 +1,231 @@
+@font-face { 
+    font-family: "Roxborough CF"; 
+    src: url("fonts/Roxborough\ CF.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+header {
+    top: 0;
+    width: 100vw;
+    display: flex;
+    border-bottom: #A6907C 1px solid;
+    position: fixed;
+}
+* {
+    font-family: Helvetica;
+}
+header p, a {
+    font-size: 0.8vw;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main__header {
+    background-color: white;
+    width: 92vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-now__header {
+    background-color: black;
+    width: 8vw;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label-book-now__header {
+    color: white;
+}
+header a{
+    margin: 0 2vw;
+    text-align: center;
+}
+.logo__header {
+    margin: 0 3vw;
+    width: 3vw;
+    height: 3vw;
+}
+.search__header > img {
+    width: 1.6vw;
+    height: 1.6vw;
+}
+header button {
+    margin-left: 4vw;
+    border: 0;
+}
+header button:hover {
+    background: transparent;
+}
+.date-name__paper {
+    margin-top: 4vw;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+
+}
+.paper {
+    margin: 0 auto;
+    margin-top: 7vw;
+    width: 70vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.date__paper {
+    
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: #A6907C;
+}
+.label__paper {
+    font-family: "Roxborough CF";
+    font-size: 2.5vw;
+}
+.paper > div {
+    margin-top: 5vw;
+}
+.object-img__paper {
+    width: 100%;
+    height: 40vw;
+    background: url(Rectangle\ 229.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-placeholder__paper {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1vw;
+}
+.information__paper {
+    margin-right: auto;
+    width: 50vw;
+}
+.defualt-text__information {
+    font-size: 1vw;
+}
+.special-text__information {
+    font-size: 1.1vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 0.2vw;
+    color: #A6907C;
+}
+.actions__paper {
+    width: 100%;
+    display: flex;
+}
+.call-to-action__actions {
+    background: transparent;
+    text-transform: uppercase;
+    color: #A6907C;
+    width: 15vw;
+    font-size: 1vw;
+    border: #A6907C 1px solid;
+    padding: 0.6vw 2vw;
+    font-weight: bold;
+}
+.back-to-all__actions {
+    background: #E6D7C6;
+    text-transform: uppercase;
+    width: 15vw;
+    color: #A6907C;
+    border: #A6907C 1px solid;
+    padding: 0.6vw 2vw;
+    font-weight: bold;
+    font-size: 1vw;
+    margin-left: auto;
+}
+.back-to-all__actions:hover {
+    background: #cabdae;
+}
+.call-to-action__actions:hover {
+    background: #d3d3d3;
+}
+.footer {
+    margin-top: 8vw;
+    background-color: #A6907C;
+    padding: 0 15vw;
+}
+.media__footer {
+    height: 10vw;
+    display: flex;
+    align-items: center;
+}
+.links__media {
+    margin-left: auto;
+}
+.media__footer > img {
+    width: 14vw;
+}
+.links__media > img {
+    width: 12vw;
+}
+.enter-email__footer {
+    border-top: #FCEFE0 1px solid;
+    border-bottom: #FCEFE0 1px solid;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter-email__enter-email {
+    width: 34vw;
+}
+.description__enter-email {
+    font-family: "Roxborough CF";
+    color: white;
+    font-size: 1.5vw;
+    width: 17vw;
+}
+.input__enter-email {
+    margin-top: 2vw;
+    background: transparent;
+    border: #FCEFE0 1px solid;
+    padding: 0.5vw 1vw;
+    width: 15vw;
+    font-size: 1.22vw;
+    color: white;
+}
+input:active, input:hover, input:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.submit__enter-email {
+    border: #FCEFE0 1px solid;;
+    border-left: 0;
+    padding: 0.5vw 1vw;
+    background:transparent;
+    color: white;
+    font-size: 1.22vw;
+    width: 7vw;
+    position: relative;
+    right: 4.45001px;
+    margin-left: 0;
+}
+.submit__enter-email:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+.links__footer {
+    width: 66vw;
+    
+    font-size: 0.8vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+.a__footer {
+    font-size: 0.8vw;
+    margin: 0 1vw;
+}
+.end__footer {
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    color: white;
+}
+.privacy-policy__end {
+    margin-left: auto;
+}
